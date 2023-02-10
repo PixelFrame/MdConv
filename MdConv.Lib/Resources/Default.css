@@ -1,0 +1,262 @@
+.markdown {
+  font-family: "Segoe UI", Helvetica, "Microsoft Yahei UI", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: white;
+  color: #333333;
+}
+.markdown a {
+  color: #4183c4;
+}
+.markdown a.absent {
+  color: #cc0000;
+}
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+  color: #363636;
+  margin: 10px 0 10px 0;
+}
+.markdown h1 {
+  border-bottom: 3px solid #9ecbeb;
+  padding-bottom: 1px;
+  font-size: 30px;
+}
+.markdown h2 {
+  border-bottom: 1px solid #9ecbeb;
+  padding-bottom: 1px;
+  font-size: 27px;
+}
+.markdown h3 {
+  border-left: 3px solid #9ecbeb;
+  padding-left: 3px;
+  font-size: 24px;
+}
+.markdown h4 {
+  border-left: 3px solid #9ecbeb;
+  padding-left: 3px;
+  font-size: 21px;
+}
+.markdown h5 {
+  font-size: 18px;
+}
+.markdown h6 {
+  font-size: 15px;
+}
+.markdown p,
+.markdown blockquote,
+.markdown ul,
+.markdown ol,
+.markdown dl,
+.markdown li,
+.markdown table,
+.markdown pre {
+  margin: 3px 0;
+  color: #303131;
+}
+.markdown hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  color: #cccccc;
+  height: 3px;
+  margin: 10px 0 10px;
+  border: transparent;
+}
+.markdown li p.first {
+  display: inline-block;
+}
+.markdown ul,
+.markdown ol {
+  padding-left: 30px;
+}
+.markdown dl {
+  padding: 0;
+}
+.markdown dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+.markdown dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+.markdown blockquote {
+  border-left: 4px solid #5f7f96;
+  padding: 5px;
+  background-color: #f7f9fa;
+  color: #363636;
+  font-style: italic;
+}
+.markdown table {
+  padding: 0;
+  border-collapse: collapse;
+}
+.markdown table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.markdown table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.markdown table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px;
+}
+.markdown table tr td {
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px;
+}
+.markdown img {
+  max-width: 100%;
+}
+.markdown span.frame {
+  display: block;
+  overflow: hidden;
+}
+.markdown span.frame > span {
+  border: 1px solid #dddddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+.markdown span.frame span img {
+  display: block;
+  float: left;
+}
+.markdown span.frame span span {
+  clear: both;
+  color: #333333;
+  display: block;
+  padding: 5px 0 0;
+}
+.markdown span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.markdown span.align-center > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: center;
+}
+.markdown span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+.markdown span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.markdown span.align-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px 0 0;
+  text-align: right;
+}
+.markdown span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+.markdown span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left;
+}
+.markdown span.float-left span {
+  margin: 13px 0 0;
+}
+.markdown span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right;
+}
+.markdown span.float-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: right;
+}
+.markdown code,
+.markdown tt {
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 0px;
+}
+.markdown pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+.markdown .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+.markdown pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 0px;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+.markdown pre code,
+.markdown pre tt {
+  background-color: transparent;
+  border: none;
+}
+.markdown code {
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+.markdown sub,
+.markdown sup {
+  font-size: 10px;
+}
+.markdown * {
+  -webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+  .markdown body {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+@media print {
+  .markdown table,
+  .markdown pre {
+    page-break-inside: avoid;
+  }
+  .markdown pre {
+    word-wrap: break-word;
+  }
+}

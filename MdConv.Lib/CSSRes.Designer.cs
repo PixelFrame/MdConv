@@ -62,7 +62,7 @@ namespace MdConv.Lib {
         
         /// <summary>
         ///   Looks up a localized string similar to .markdown {
-        ///  font-family: Helvetica, &quot;Microsoft Yahei UI&quot;, sans-serif;
+        ///  font-family: &quot;Segoe UI&quot;, Helvetica, &quot;Microsoft Yahei UI&quot;, sans-serif;
         ///  font-weight: normal;
         ///  font-size: 14px;
         ///  background-color: white;
@@ -88,7 +88,8 @@ namespace MdConv.Lib {
         ///  color: #363636;
         ///  margin: 10px 0 10px 0;
         ///}
-        ///. [rest of string was truncated]&quot;;.
+        ///.markdown h1 {
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Default {
             get {
