@@ -1,4 +1,6 @@
 ﻿using Markdig;
+using System.Collections;
+using System.Globalization;
 
 namespace MdConv.Lib
 {
@@ -46,6 +48,21 @@ namespace MdConv.Lib
                 .Replace("@PrismJs", RetrievePrismJs())
                 .Replace("@KaTeXCss", (enableKaTeX ? KaTeXCssHtml : string.Empty))
                 .Replace("@KaTeXJs", (enableKaTeX ? KaTeXJsHtml : string.Empty));
+        }
+
+        public static IEnumerable<string> AvailableStyles
+        {
+            get
+            {
+                var result = new List<string>();
+                var resset = CSSRes.ResourceManager.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
+                foreach (DictionaryEntry item in resset!)
+                {
+                    result.Add(item.Key.ToString()!);
+                }
+                result.Sort();
+                return result;
+            }
         }
 
         private static string GenMarkdownHtml(string md)

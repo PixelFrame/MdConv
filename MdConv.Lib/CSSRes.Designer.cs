@@ -80,7 +80,6 @@ namespace MdConv.Lib {
         ///.markdown h4,
         ///.markdown h5,
         ///.markdown h6 {
-        ///  padding: 0 0 1px;
         ///  font-weight: bold;
         ///  -webkit-font-smoothing: antialiased;
         ///  cursor: text;
@@ -89,11 +88,68 @@ namespace MdConv.Lib {
         ///  margin: 10px 0 10px 0;
         ///}
         ///.markdown h1 {
-        ///  [rest of string was truncated]&quot;;.
+        ///  border-bottom: 3px  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Default {
             get {
                 return ResourceManager.GetString("Default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .markdown {
+        ///  color-scheme: dark;
+        ///  -ms-text-size-adjust: 100%;
+        ///  -webkit-text-size-adjust: 100%;
+        ///  margin: 0;
+        ///  color: #c9d1d9;
+        ///  background-color: #0d1117;
+        ///  font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;
+        ///  font-size: 16px;
+        ///  line-height: 1.5;
+        ///  word-wrap: break-word;
+        ///}
+        ///
+        ///.markdown .octicon {
+        ///  display: inline-block;
+        ///  fill: currentColor;
+        ///  vertical-align: text-bottom;
+        ///}
+        ///
+        ///.markdown h1:hover .anchor .octicon-link:before,
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string github_dark {
+            get {
+                return ResourceManager.GetString("github_dark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .markdown {
+        ///  -ms-text-size-adjust: 100%;
+        ///  -webkit-text-size-adjust: 100%;
+        ///  margin: 0;
+        ///  color: #24292f;
+        ///  background-color: #ffffff;
+        ///  font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;
+        ///  font-size: 16px;
+        ///  line-height: 1.5;
+        ///  word-wrap: break-word;
+        ///}
+        ///
+        ///.markdown .octicon {
+        ///  display: inline-block;
+        ///  fill: currentColor;
+        ///  vertical-align: text-bottom;
+        ///}
+        ///
+        ///.markdown h1:hover .anchor .octicon-link:before,
+        ///.markdown h2:hover .an [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string github_light {
+            get {
+                return ResourceManager.GetString("github_light", resourceCulture);
             }
         }
     }
